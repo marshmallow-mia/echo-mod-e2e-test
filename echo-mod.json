@@ -4,7 +4,7 @@
   "name": "E2E test mod",
   "summary": "A throwaway test mod for the launcher's end-to-end test of community mods. Not for players.",
   "author": "marshmallow-mia",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "kind": "mod",
   "file": "E2eTestMod.dll",
   "api": 5,
@@ -12,7 +12,7 @@
     "observes-only"
   ],
   "target": "client",
-  "visibility": "unlisted",
+  "visibility": "private",
   "requires": {
     "nevr": ">=4.1.0",
     "mods": []
