@@ -1,16 +1,18 @@
 {
   "schema": 1,
-  "id": "example-mod",
-  "name": "Example mod",
-  "summary": "Logs the game's state changes. A starting point for your own mod.",
-  "author": "Your name",
-  "version": "0.1.0",
+  "id": "e2e-test-mod",
+  "name": "E2E test mod",
+  "summary": "A throwaway test mod for the launcher's end-to-end test of community mods. Not for players.",
+  "author": "marshmallow-mia",
+  "version": "1.0.0",
   "kind": "mod",
-  "file": "ExampleMod.dll",
+  "file": "E2eTestMod.dll",
   "api": 5,
-  "capabilities": ["observes-only"],
+  "capabilities": [
+    "observes-only"
+  ],
   "target": "client",
-  "visibility": "public",
+  "visibility": "unlisted",
   "requires": {
     "nevr": ">=4.1.0",
     "mods": []
@@ -19,5 +21,5 @@
   "license": "MIT",
   "homepage": "",
   "args": {},
-  "settings": "ExampleMod.plugin.json"
+  "settings": "E2eTestMod.plugin.json"
 }
