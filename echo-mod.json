@@ -4,7 +4,7 @@
   "name": "E2E test mod",
   "summary": "A throwaway test mod for the launcher's end-to-end test of community mods. Not for players.",
   "author": "marshmallow-mia",
-  "version": "1.0.0",
+  "version": "1.1.0-beta.1",
   "kind": "mod",
   "file": "E2eTestMod.dll",
   "api": 5,
