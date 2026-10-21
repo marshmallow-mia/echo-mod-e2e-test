@@ -11,7 +11,7 @@ bool g_logStates = true;
 
 bool Start(const NvrGameContext* ctx) {
     bool server = (ctx && (ctx->flags & NEVR_HOST_IS_SERVER)) || HasFlag(L"-server");
-    Log("started on a %s", server ? "game server" : "client");
+    Log("started (rebuilt) on a %s", server ? "game server" : "client");
 
     // Options come from the launcher. Log what you made of them, never the raw values: an option
     // can be a password.
